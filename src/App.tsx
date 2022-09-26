@@ -1,13 +1,14 @@
-import React from 'react';
+import { GlobalStyle } from "./styles/global";
 
-
-
-function App() {
+export function App() {
   return (
+    <>
+    <GlobalStyle/>
     <div className="App">
-      ola mundo
+      <h1>Ola mundo</h1>
+      <p>Nao</p>
     </div>
+    </>
   );
 }
 
-export default App;
